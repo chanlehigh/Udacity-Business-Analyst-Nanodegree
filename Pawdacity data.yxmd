@@ -1,0 +1,2463 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="ADDRESS" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="STATE" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="ZIP" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="January" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="February" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="March" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="April" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="May" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="June" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="July" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="August" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="September" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="October" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="November" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="December" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="126" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="NAME" selected="True" />
+            <Field field="ADDRESS" selected="True" />
+            <Field field="CITY" selected="True" />
+            <Field field="STATE" selected="True" />
+            <Field field="ZIP" selected="True" />
+            <Field field="January" selected="True" />
+            <Field field="February" selected="True" />
+            <Field field="March" selected="True" />
+            <Field field="April" selected="True" />
+            <Field field="May" selected="True" />
+            <Field field="June" selected="True" />
+            <Field field="July" selected="True" />
+            <Field field="August" selected="True" />
+            <Field field="September" selected="True" />
+            <Field field="October" selected="True" />
+            <Field field="November" selected="True" />
+            <Field field="December" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="12" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="January" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="February" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="March" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="April" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="May" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="June" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="July" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="August" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="September" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="October" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="November" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="December" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>p2-wy-demographic-data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="County" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="Land Area" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="Households with Under 18" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="Population Density" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="Total Families" size="254" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="126" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="City" selected="True" />
+            <Field field="County" selected="True" />
+            <Field field="Land Area" selected="True" />
+            <Field field="Households with Under 18" selected="True" />
+            <Field field="Population Density" selected="True" />
+            <Field field="Total Families" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City" size="17" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="County" size="11" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="String" />
+            <Field name="Land Area" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Households with Under 18" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Int16" />
+            <Field name="Population Density" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Total Families" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="103" />
+          <Fields>
+            <Field name="City|County" />
+            <Field name="2014 Estimate" />
+            <Field name="2010 Census" />
+            <Field name="2000 Census" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Afton|Lincoln</c>
+              <c>&lt;td&gt;1,968&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,911&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,818&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Albin|Laramie</c>
+              <c>&lt;td&gt;185&lt;/td&gt;</c>
+              <c>&lt;td&gt;181&lt;/td&gt;</c>
+              <c>&lt;td&gt;120&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Alpine|Lincoln</c>
+              <c>&lt;td&gt;845&lt;/td&gt;</c>
+              <c>&lt;td&gt;828&lt;/td&gt;</c>
+              <c>&lt;td&gt;550&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Baggs|Carbon</c>
+              <c>&lt;td&gt;439&lt;/td&gt;</c>
+              <c>&lt;td&gt;440&lt;/td&gt;</c>
+              <c>&lt;td&gt;348&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Bairoil|Sweetwater</c>
+              <c>&lt;td&gt;107&lt;/td&gt;</c>
+              <c>&lt;td&gt;106&lt;/td&gt;</c>
+              <c>&lt;td&gt;97&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Bar Nunn|Natrona</c>
+              <c>&lt;td&gt;2,735&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,213&lt;/td&gt;</c>
+              <c>&lt;td&gt;936&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Basin ?|Big Horn</c>
+              <c>&lt;td&gt;1,312&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,285&lt;sup id="cite_ref-4" class="reference"&gt;&lt;a href="#cite_note-4"&gt;[4]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,238&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Bear River|Uinta</c>
+              <c>&lt;td&gt;521&lt;/td&gt;</c>
+              <c>&lt;td&gt;518&lt;/td&gt;</c>
+              <c>&lt;td&gt;-&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Big Piney|Sublette</c>
+              <c>&lt;td&gt;538&lt;/td&gt;</c>
+              <c>&lt;td&gt;552&lt;/td&gt;</c>
+              <c>&lt;td&gt;408&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Buffalo ?|Johnson</c>
+              <c>&lt;td&gt;4,615&lt;/td&gt;</c>
+              <c>&lt;td&gt;4,585&lt;/td&gt;</c>
+              <c>&lt;td&gt;3,900&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Burlington|Big Horn</c>
+              <c>&lt;td&gt;332&lt;/td&gt;</c>
+              <c>&lt;td&gt;288&lt;/td&gt;</c>
+              <c>&lt;td&gt;250&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Burns|Laramie</c>
+              <c>&lt;td&gt;305&lt;/td&gt;</c>
+              <c>&lt;td&gt;301&lt;/td&gt;</c>
+              <c>&lt;td&gt;285&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Byron|Big Horn</c>
+              <c>&lt;td&gt;609&lt;/td&gt;</c>
+              <c>&lt;td&gt;593&lt;/td&gt;</c>
+              <c>&lt;td&gt;557&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Casper ?|Natrona</c>
+              <c>&lt;td&gt;40,086&lt;/td&gt;</c>
+              <c>&lt;td&gt;35,316&lt;/td&gt;</c>
+              <c>&lt;td&gt;32,644&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Cheyenne ??|Laramie</c>
+              <c>&lt;td&gt;62,845&lt;/td&gt;</c>
+              <c>&lt;td&gt;59,466&lt;/td&gt;</c>
+              <c>&lt;td&gt;53,011&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Chugwater|Platte</c>
+              <c>&lt;td&gt;216&lt;/td&gt;</c>
+              <c>&lt;td&gt;212&lt;/td&gt;</c>
+              <c>&lt;td&gt;244&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Clearmont|Sheridan</c>
+              <c>&lt;td&gt;142&lt;/td&gt;</c>
+              <c>&lt;td&gt;142&lt;/td&gt;</c>
+              <c>&lt;td&gt;115&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Cody ?|Park</c>
+              <c>&lt;td&gt;9,740&lt;/td&gt;</c>
+              <c>&lt;td&gt;9,520&lt;/td&gt;</c>
+              <c>&lt;td&gt;8,835&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Cokeville|Lincoln</c>
+              <c>&lt;td&gt;542&lt;/td&gt;</c>
+              <c>&lt;td&gt;535&lt;/td&gt;</c>
+              <c>&lt;td&gt;506&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Cowley|Big Horn</c>
+              <c>&lt;td&gt;718&lt;/td&gt;</c>
+              <c>&lt;td&gt;655&lt;/td&gt;</c>
+              <c>&lt;td&gt;560&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Dayton|Sheridan</c>
+              <c>&lt;td&gt;794&lt;/td&gt;</c>
+              <c>&lt;td&gt;757&lt;/td&gt;</c>
+              <c>&lt;td&gt;678&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Deaver|Big Horn</c>
+              <c>&lt;td&gt;184&lt;/td&gt;</c>
+              <c>&lt;td&gt;178&lt;/td&gt;</c>
+              <c>&lt;td&gt;177&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Diamondville|Lincoln</c>
+              <c>&lt;td&gt;740&lt;/td&gt;</c>
+              <c>&lt;td&gt;737&lt;/td&gt;</c>
+              <c>&lt;td&gt;716&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Dixon|Carbon</c>
+              <c>&lt;td&gt;97&lt;/td&gt;</c>
+              <c>&lt;td&gt;97&lt;/td&gt;</c>
+              <c>&lt;td&gt;79&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Douglas ?|Converse</c>
+              <c>&lt;td&gt;6,423&lt;/td&gt;</c>
+              <c>&lt;td&gt;6,120&lt;/td&gt;</c>
+              <c>&lt;td&gt;5,288&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Dubois|Fremont</c>
+              <c>&lt;td&gt;998&lt;/td&gt;</c>
+              <c>&lt;td&gt;971&lt;/td&gt;</c>
+              <c>&lt;td&gt;962&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>East Thermopolis|Hot Springs</c>
+              <c>&lt;td&gt;252&lt;/td&gt;</c>
+              <c>&lt;td&gt;254&lt;/td&gt;</c>
+              <c>&lt;td&gt;274&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Edgerton|Natrona</c>
+              <c>&lt;td&gt;199&lt;/td&gt;</c>
+              <c>&lt;td&gt;195&lt;/td&gt;</c>
+              <c>&lt;td&gt;169&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Elk Mountain|Carbon</c>
+              <c>&lt;td&gt;196&lt;/td&gt;</c>
+              <c>&lt;td&gt;191&lt;/td&gt;</c>
+              <c>&lt;td&gt;192&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Evanston ?|Uinta</c>
+              <c>&lt;td&gt;12,190&lt;/td&gt;</c>
+              <c>&lt;td&gt;12,359&lt;/td&gt;</c>
+              <c>&lt;td&gt;11,507&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Evansville|Natrona</c>
+              <c>&lt;td&gt;2,831&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,544&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,255&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Fort Laramie|Goshen</c>
+              <c>&lt;td&gt;227&lt;/td&gt;</c>
+              <c>&lt;td&gt;230&lt;/td&gt;</c>
+              <c>&lt;td&gt;243&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Frannie|Park</c>
+              <c>&lt;td&gt;162&lt;/td&gt;</c>
+              <c>&lt;td&gt;157&lt;/td&gt;</c>
+              <c>&lt;td&gt;209&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Gillette ?|Campbell</c>
+              <c>&lt;td&gt;31,971&lt;/td&gt;</c>
+              <c>&lt;td&gt;29,087&lt;/td&gt;</c>
+              <c>&lt;td&gt;19,646&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Glendo|Platte</c>
+              <c>&lt;td&gt;201&lt;/td&gt;</c>
+              <c>&lt;td&gt;205&lt;/td&gt;</c>
+              <c>&lt;td&gt;229&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Glenrock|Converse</c>
+              <c>&lt;td&gt;2,583&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,576&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,231&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Grand Encampment|Carbon</c>
+              <c>&lt;td&gt;443&lt;/td&gt;</c>
+              <c>&lt;td&gt;450&lt;/td&gt;</c>
+              <c>&lt;td&gt;443&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Granger|Sweetwater</c>
+              <c>&lt;td&gt;139&lt;/td&gt;</c>
+              <c>&lt;td&gt;139&lt;/td&gt;</c>
+              <c>&lt;td&gt;146&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Green River ?|Sweetwater</c>
+              <c>&lt;td&gt;12,630&lt;/td&gt;</c>
+              <c>&lt;td&gt;12,515&lt;/td&gt;</c>
+              <c>&lt;td&gt;11,808&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Greybull|Big Horn</c>
+              <c>&lt;td&gt;1,868&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,847&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,815&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Guernsey|Platte</c>
+              <c>&lt;td&gt;1,193&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,147&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,147&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Hanna|Carbon</c>
+              <c>&lt;td&gt;831&lt;/td&gt;</c>
+              <c>&lt;td&gt;841&lt;/td&gt;</c>
+              <c>&lt;td&gt;873&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Hartville|Platte</c>
+              <c>&lt;td&gt;62&lt;/td&gt;</c>
+              <c>&lt;td&gt;62&lt;/td&gt;</c>
+              <c>&lt;td&gt;76&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Hudson|Fremont</c>
+              <c>&lt;td&gt;462&lt;/td&gt;</c>
+              <c>&lt;td&gt;458&lt;/td&gt;</c>
+              <c>&lt;td&gt;407&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Hulett|Crook</c>
+              <c>&lt;td&gt;400&lt;/td&gt;</c>
+              <c>&lt;td&gt;383&lt;/td&gt;</c>
+              <c>&lt;td&gt;408&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Jackson ?|Teton</c>
+              <c>&lt;td&gt;10,449&lt;/td&gt;</c>
+              <c>&lt;td&gt;9,577&lt;/td&gt;</c>
+              <c>&lt;td&gt;8,647&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Kaycee|Johnson</c>
+              <c>&lt;td&gt;260&lt;/td&gt;</c>
+              <c>&lt;td&gt;263&lt;/td&gt;</c>
+              <c>&lt;td&gt;249&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Kemmerer ?|Lincoln</c>
+              <c>&lt;td&gt;2,732&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,656&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,651&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Kirby|Hot Springs</c>
+              <c>&lt;td&gt;93&lt;/td&gt;</c>
+              <c>&lt;td&gt;92&lt;/td&gt;</c>
+              <c>&lt;td&gt;57&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>La Barge|Lincoln</c>
+              <c>&lt;td&gt;553&lt;/td&gt;</c>
+              <c>&lt;td&gt;551&lt;/td&gt;</c>
+              <c>&lt;td&gt;431&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>La Grange|Goshen</c>
+              <c>&lt;td&gt;455&lt;/td&gt;</c>
+              <c>&lt;td&gt;448&lt;/td&gt;</c>
+              <c>&lt;td&gt;332&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Lander ?|Fremont</c>
+              <c>&lt;td&gt;7,642&lt;/td&gt;</c>
+              <c>&lt;td&gt;7,487&lt;/td&gt;</c>
+              <c>&lt;td&gt;6,867&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Laramie ?|Albany</c>
+              <c>&lt;td&gt;32,081&lt;/td&gt;</c>
+              <c>&lt;td&gt;30,816&lt;/td&gt;</c>
+              <c>&lt;td&gt;27,204&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Lingle|Goshen</c>
+              <c>&lt;td&gt;467&lt;/td&gt;</c>
+              <c>&lt;td&gt;468&lt;/td&gt;</c>
+              <c>&lt;td&gt;510&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Lost Springs|Converse</c>
+              <c>&lt;td&gt;4&lt;/td&gt;</c>
+              <c>&lt;td&gt;4&lt;/td&gt;</c>
+              <c>&lt;td&gt;1&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Lovell|Big Horn</c>
+              <c>&lt;td&gt;2,404&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,360&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,281&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Lusk ?|Niobrara</c>
+              <c>&lt;td&gt;1,578&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,567&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,447&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Lyman|Uinta</c>
+              <c>&lt;td&gt;2,077&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,115&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,938&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Manderson|Big Horn</c>
+              <c>&lt;td&gt;117&lt;/td&gt;</c>
+              <c>&lt;td&gt;114&lt;/td&gt;</c>
+              <c>&lt;td&gt;104&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Manville|Niobrara</c>
+              <c>&lt;td&gt;93&lt;/td&gt;</c>
+              <c>&lt;td&gt;95&lt;/td&gt;</c>
+              <c>&lt;td&gt;101&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Marbleton|Sublette</c>
+              <c>&lt;td&gt;1,114&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,094&lt;/td&gt;</c>
+              <c>&lt;td&gt;720&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Medicine Bow|Carbon</c>
+              <c>&lt;td&gt;277&lt;/td&gt;</c>
+              <c>&lt;td&gt;284&lt;/td&gt;</c>
+              <c>&lt;td&gt;274&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Meeteetse|Park</c>
+              <c>&lt;td&gt;327&lt;/td&gt;</c>
+              <c>&lt;td&gt;327&lt;/td&gt;</c>
+              <c>&lt;td&gt;351&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Midwest|Natrona</c>
+              <c>&lt;td&gt;412&lt;/td&gt;</c>
+              <c>&lt;td&gt;404&lt;/td&gt;</c>
+              <c>&lt;td&gt;408&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Mills|Natrona</c>
+              <c>&lt;td&gt;3,690&lt;/td&gt;</c>
+              <c>&lt;td&gt;3,461&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,591&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Moorcroft|Crook</c>
+              <c>&lt;td&gt;1,036&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,009&lt;/td&gt;</c>
+              <c>&lt;td&gt;807&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Mountain View|Uinta</c>
+              <c>&lt;td&gt;1,304&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,286&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,153&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Newcastle ?|Weston</c>
+              <c>&lt;td&gt;3,513&lt;/td&gt;</c>
+              <c>&lt;td&gt;3,532&lt;/td&gt;</c>
+              <c>&lt;td&gt;3,065&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Opal|Lincoln</c>
+              <c>&lt;td&gt;99&lt;/td&gt;</c>
+              <c>&lt;td&gt;96&lt;/td&gt;</c>
+              <c>&lt;td&gt;102&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Pavillion|Fremont</c>
+              <c>&lt;td&gt;240&lt;/td&gt;</c>
+              <c>&lt;td&gt;231&lt;/td&gt;</c>
+              <c>&lt;td&gt;165&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Pine Bluffs|Laramie</c>
+              <c>&lt;td&gt;1,146&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,129&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,153&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Pine Haven|Crook</c>
+              <c>&lt;td&gt;498&lt;/td&gt;</c>
+              <c>&lt;td&gt;490&lt;/td&gt;</c>
+              <c>&lt;td&gt;222&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Pinedale ?|Sublette</c>
+              <c>&lt;td&gt;1,958&lt;/td&gt;</c>
+              <c>&lt;td&gt;2,030&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,412&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Powell|Park</c>
+              <c>&lt;td&gt;6,407&lt;/td&gt;</c>
+              <c>&lt;td&gt;6,314&lt;/td&gt;</c>
+              <c>&lt;td&gt;5,373&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Ranchester|Sheridan</c>
+              <c>&lt;td&gt;943&lt;/td&gt;</c>
+              <c>&lt;td&gt;855&lt;/td&gt;</c>
+              <c>&lt;td&gt;701&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Rawlins ?|Carbon</c>
+              <c>&lt;td&gt;9,227&lt;/td&gt;</c>
+              <c>&lt;td&gt;9,259&lt;/td&gt;</c>
+              <c>&lt;td&gt;8,538&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Riverside|Carbon</c>
+              <c>&lt;td&gt;53&lt;/td&gt;</c>
+              <c>&lt;td&gt;52&lt;/td&gt;</c>
+              <c>&lt;td&gt;59&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Riverton|Fremont</c>
+              <c>&lt;td&gt;10,953&lt;/td&gt;</c>
+              <c>&lt;td&gt;10,615&lt;/td&gt;</c>
+              <c>&lt;td&gt;9,310&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Rock River|Albany</c>
+              <c>&lt;td&gt;245&lt;/td&gt;</c>
+              <c>&lt;td&gt;245&lt;/td&gt;</c>
+              <c>&lt;td&gt;235&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Rock Springs|Sweetwater</c>
+              <c>&lt;td&gt;24,045&lt;/td&gt;</c>
+              <c>&lt;td&gt;23,036&lt;/td&gt;</c>
+              <c>&lt;td&gt;18,708&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Rolling Hills|Converse</c>
+              <c>&lt;td&gt;439&lt;/td&gt;</c>
+              <c>&lt;td&gt;440&lt;/td&gt;</c>
+              <c>&lt;td&gt;449&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Saratoga|Carbon</c>
+              <c>&lt;td&gt;1,692&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,690&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,726&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Sheridan ?|Sheridan</c>
+              <c>&lt;td&gt;17,916&lt;/td&gt;</c>
+              <c>&lt;td&gt;17,444&lt;/td&gt;</c>
+              <c>&lt;td&gt;15,804&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Shoshoni|Fremont</c>
+              <c>&lt;td&gt;655&lt;/td&gt;</c>
+              <c>&lt;td&gt;649&lt;/td&gt;</c>
+              <c>&lt;td&gt;635&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Sinclair|Carbon</c>
+              <c>&lt;td&gt;424&lt;/td&gt;</c>
+              <c>&lt;td&gt;433&lt;/td&gt;</c>
+              <c>&lt;td&gt;423&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Star Valley Ranch|Lincoln</c>
+              <c>&lt;td&gt;1,541&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,503&lt;/td&gt;</c>
+              <c>&lt;td&gt;776&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Sundance ?|Crook</c>
+              <c>&lt;td&gt;1,239&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,182&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,161&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Superior|Sweetwater</c>
+              <c>&lt;td&gt;332&lt;/td&gt;</c>
+              <c>&lt;td&gt;336&lt;/td&gt;</c>
+              <c>&lt;td&gt;244&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Ten Sleep|Washakie</c>
+              <c>&lt;td&gt;253&lt;/td&gt;</c>
+              <c>&lt;td&gt;260&lt;/td&gt;</c>
+              <c>&lt;td&gt;304&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Thayne|Lincoln</c>
+              <c>&lt;td&gt;364&lt;/td&gt;</c>
+              <c>&lt;td&gt;366&lt;sup id="cite_ref-5" class="reference"&gt;&lt;a href="#cite_note-5"&gt;[5]&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;</c>
+              <c>&lt;td&gt;341&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Thermopolis ?|Hot Springs</c>
+              <c>&lt;td&gt;3,020&lt;/td&gt;</c>
+              <c>&lt;td&gt;3,009&lt;/td&gt;</c>
+              <c>&lt;td&gt;3,172&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Torrington ?|Goshen</c>
+              <c>&lt;td&gt;6,736&lt;/td&gt;</c>
+              <c>&lt;td&gt;6,501&lt;/td&gt;</c>
+              <c>&lt;td&gt;5,776&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Upton|Weston</c>
+              <c>&lt;td&gt;1,104&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,100&lt;/td&gt;</c>
+              <c>&lt;td&gt;872&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Van Tassell|Niobrara</c>
+              <c>&lt;td&gt;15&lt;/td&gt;</c>
+              <c>&lt;td&gt;15&lt;/td&gt;</c>
+              <c>&lt;td&gt;18&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Wamsutter|Sweetwater</c>
+              <c>&lt;td&gt;503&lt;/td&gt;</c>
+              <c>&lt;td&gt;451&lt;/td&gt;</c>
+              <c>&lt;td&gt;261&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Wheatland ?|Platte</c>
+              <c>&lt;td&gt;3,659&lt;/td&gt;</c>
+              <c>&lt;td&gt;3,627&lt;/td&gt;</c>
+              <c>&lt;td&gt;3,548&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Worland ?|Washakie</c>
+              <c>&lt;td&gt;5,366&lt;/td&gt;</c>
+              <c>&lt;td&gt;5,487&lt;/td&gt;</c>
+              <c>&lt;td&gt;5,250&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Wright|Campbell</c>
+              <c>&lt;td&gt;1,847&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,807&lt;/td&gt;</c>
+              <c>&lt;td&gt;1,347&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>Yoder|Goshen</c>
+              <c>&lt;td&gt;161&lt;/td&gt;</c>
+              <c>&lt;td&gt;151&lt;/td&gt;</c>
+              <c>&lt;td&gt;169&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>[Null]</c>
+              <c>&lt;td colspan="2"&gt;&lt;/td&gt;</c>
+              <c>&lt;td class="navbox-abovebelow" colspan="2"&gt;</c>
+              <c>&lt;td colspan="2"&gt;&lt;/td&gt;</c>
+            </r>
+            <r>
+              <c>[Null]</c>
+              <c>&lt;td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"&gt;</c>
+              <c>&lt;td colspan="2"&gt;&lt;/td&gt;</c>
+              <c>&lt;td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"&gt;</c>
+            </r>
+            <r>
+              <c>[Null]</c>
+              <c>&lt;td colspan="2"&gt;&lt;/td&gt;</c>
+              <c>&lt;td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"&gt;</c>
+              <c>&lt;td style="padding:2px"&gt;</c>
+            </r>
+            <r>
+              <c>[Null]</c>
+              <c>&lt;td colspan="2"&gt;&lt;/td&gt;</c>
+              <c>&lt;td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;background:transparent;"&gt;</c>
+              <c>&lt;td colspan="2"&gt;&lt;/td&gt;</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City|County" size="28" source="TextInput:" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="TextInput:" type="V_String" />
+            <Field name="2010 Census" size="159" source="TextInput:" type="V_String" />
+            <Field name="2000 Census" size="134" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings>
+        <Position x="174" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">1-99</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City|County" size="28" source="TextInput:" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="TextInput:" type="V_String" />
+            <Field name="2010 Census" size="159" source="TextInput:" type="V_String" />
+            <Field name="2000 Census" size="134" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="246" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>City|County</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>CityCounty</RootName>
+          <Delimeters value="|" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City|County" size="28" source="TextInput:" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="TextInput:" type="V_String" />
+            <Field name="2010 Census" size="159" source="TextInput:" type="V_String" />
+            <Field name="2000 Census" size="134" source="TextInput:" type="V_String" />
+            <Field description="TextToColumns: Parsed from City|County" name="CityCounty1" size="28" source="TextToColumns: Parsed from City|County" type="V_String" />
+            <Field description="TextToColumns: Parsed from City|County" name="CityCounty2" size="28" source="TextToColumns: Parsed from City|County" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CityCounty1" selected="True" rename="City" />
+            <SelectField field="CityCounty2" selected="True" rename="County" />
+            <SelectField field="2014 Estimate" selected="True" />
+            <SelectField field="2010 Census" selected="True" />
+            <SelectField field="2000 Census" selected="True" />
+            <SelectField field="City|County" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from City|County" name="City" size="28" source="TextToColumns: Parsed from City|County" type="V_String" />
+            <Field description="TextToColumns: Parsed from City|County" name="County" size="28" source="TextToColumns: Parsed from City|County" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="TextInput:" type="V_String" />
+            <Field name="2010 Census" size="159" source="TextInput:" type="V_String" />
+            <Field name="2000 Census" size="134" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="366" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ReplaceChar([City],&quot; ?&quot;,&quot;&quot;)" field="City" size="28" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[City = ReplaceChar([City]," ?","")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from City|County" name="City" size="28" source="Formula: ReplaceChar([City],&quot; ?&quot;,&quot;&quot;)" type="V_String" />
+            <Field description="TextToColumns: Parsed from City|County" name="County" size="28" source="TextToColumns: Parsed from City|County" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="TextInput:" type="V_String" />
+            <Field name="2010 Census" size="159" source="TextInput:" type="V_String" />
+            <Field name="2000 Census" size="134" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="438" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ReplaceChar([2014 Estimate],&quot;&lt;/td&gt;&quot;,&quot;&quot;)" field="2014 Estimate" size="135" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[2014 Estimate = ReplaceChar([2014 Estimate],"</td>","")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from City|County" name="City" size="28" source="Formula: ReplaceChar([City],&quot; ?&quot;,&quot;&quot;)" type="V_String" />
+            <Field description="TextToColumns: Parsed from City|County" name="County" size="28" source="TextToColumns: Parsed from City|County" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="Formula: ReplaceChar([2014 Estimate],&quot;&lt;/td&gt;&quot;,&quot;&quot;)" type="V_String" />
+            <Field name="2010 Census" size="159" source="TextInput:" type="V_String" />
+            <Field name="2000 Census" size="134" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="510" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ReplaceChar([2010 Census], '&lt;/td&gt;', '')" field="2010 Census" size="159" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[2010 Census = ReplaceChar([2010 Census], '</td>', '')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from City|County" name="City" size="28" source="Formula: ReplaceChar([City],&quot; ?&quot;,&quot;&quot;)" type="V_String" />
+            <Field description="TextToColumns: Parsed from City|County" name="County" size="28" source="TextToColumns: Parsed from City|County" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="Formula: ReplaceChar([2014 Estimate],&quot;&lt;/td&gt;&quot;,&quot;&quot;)" type="V_String" />
+            <Field name="2010 Census" size="159" source="Formula: ReplaceChar([2010 Census], '&lt;/td&gt;', '')" type="V_String" />
+            <Field name="2000 Census" size="134" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="594" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([2010 Census],'1,285sup i=&quot;cie_ref-4&quot; class=&quot;reference&quot;a href=&quot;#cie_noe-4&quot;[4]asup' , '1,285')" field="2010 Census" size="159" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2010 Census = Replace([2010 Census],'1,285sup i="cie_ref-4" class="reference"a h...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from City|County" name="City" size="28" source="Formula: ReplaceChar([City],&quot; ?&quot;,&quot;&quot;)" type="V_String" />
+            <Field description="TextToColumns: Parsed from City|County" name="County" size="28" source="TextToColumns: Parsed from City|County" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="Formula: ReplaceChar([2014 Estimate],&quot;&lt;/td&gt;&quot;,&quot;&quot;)" type="V_String" />
+            <Field name="2010 Census" size="159" source="Formula: Replace([2010 Census],'1,285sup i=&quot;cie_ref-4&quot; class=&quot;reference&quot;a href=&quot;#cie_noe-4&quot;[4]asup' , '1,285')" type="V_String" />
+            <Field name="2000 Census" size="134" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="666" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([2010 Census], '366sup i=&quot;cie_ref-5&quot; class=&quot;reference&quot;a href=&quot;#cie_noe-5&quot;[5]asup', '366')" field="2010 Census" size="159" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2010 Census = Replace([2010 Census], '366sup i="cie_ref-5" class="reference"a hr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from City|County" name="City" size="28" source="Formula: ReplaceChar([City],&quot; ?&quot;,&quot;&quot;)" type="V_String" />
+            <Field description="TextToColumns: Parsed from City|County" name="County" size="28" source="TextToColumns: Parsed from City|County" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="Formula: ReplaceChar([2014 Estimate],&quot;&lt;/td&gt;&quot;,&quot;&quot;)" type="V_String" />
+            <Field name="2010 Census" size="159" source="Formula: Replace([2010 Census], '366sup i=&quot;cie_ref-5&quot; class=&quot;reference&quot;a href=&quot;#cie_noe-5&quot;[5]asup', '366')" type="V_String" />
+            <Field name="2000 Census" size="134" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="738" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ReplaceChar([2000 Census], '&lt;/td&gt;','')" field="2000 Census" size="134" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[2000 Census = ReplaceChar([2000 Census], '</td>','')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from City|County" name="City" size="28" source="Formula: ReplaceChar([City],&quot; ?&quot;,&quot;&quot;)" type="V_String" />
+            <Field description="TextToColumns: Parsed from City|County" name="County" size="28" source="TextToColumns: Parsed from City|County" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="Formula: ReplaceChar([2014 Estimate],&quot;&lt;/td&gt;&quot;,&quot;&quot;)" type="V_String" />
+            <Field name="2010 Census" size="159" source="Formula: Replace([2010 Census], '366sup i=&quot;cie_ref-5&quot; class=&quot;reference&quot;a href=&quot;#cie_noe-5&quot;[5]asup', '366')" type="V_String" />
+            <Field name="2000 Census" size="134" source="Formula: ReplaceChar([2000 Census], '&lt;/td&gt;','')" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="318" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CITY" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="City" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_City" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="12" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="Total Pawdacity Sales" size="1073741823" source="Formula: [January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="CITY" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="12" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="Total Pawdacity Sales" size="1073741823" source="Formula: [January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" type="V_WString" />
+            <Field name="County" size="11" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="String" />
+            <Field name="Land Area" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Households with Under 18" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Int16" />
+            <Field name="Population Density" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Total Families" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="CITY" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="City" size="17" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="County" size="11" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="String" />
+            <Field name="Land Area" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Households with Under 18" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Int16" />
+            <Field name="Population Density" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Total Families" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="City" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="798" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CITY" />
+            <Field field="County" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="City" />
+            <Field field="County" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_City" selected="False" />
+                <SelectField field="Right_County" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="12" source="Formula: Replace([CITY], 'Rock Springs', 'RockSprings')" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="Total Pawdacity Sales" size="1073741823" source="Formula: [January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" type="V_WString" />
+            <Field name="County" size="11" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="String" />
+            <Field name="Land Area" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Households with Under 18" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Int16" />
+            <Field name="Population Density" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Total Families" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="CITY" />
+            <Field field="County" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="12" source="Formula: Replace([CITY], 'Rock Springs', 'RockSprings')" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="Total Pawdacity Sales" size="1073741823" source="Formula: [January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" type="V_WString" />
+            <Field name="County" size="11" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="String" />
+            <Field name="Land Area" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Households with Under 18" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Int16" />
+            <Field name="Population Density" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Total Families" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="2014 Estimate" size="135" source="Formula: ReplaceChar([2014 Estimate],&quot;&lt;/td&gt;&quot;,&quot;&quot;)" type="V_String" />
+            <Field name="2010 Census" size="159" source="Formula: Replace([2010 Census], '366sup i=&quot;cie_ref-5&quot; class=&quot;reference&quot;a href=&quot;#cie_noe-5&quot;[5]asup', '366')" type="V_String" />
+            <Field name="2000 Census" size="134" source="Formula: ReplaceChar([2000 Census], '&lt;/td&gt;','')" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="CITY" order="" />
+            <Field field="County" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from City|County" name="City" size="28" source="Formula: ReplaceChar([City],&quot; ?&quot;,&quot;&quot;)" type="V_String" />
+            <Field description="TextToColumns: Parsed from City|County" name="County" size="28" source="TextToColumns: Parsed from City|County" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="Formula: ReplaceChar([2014 Estimate],&quot;&lt;/td&gt;&quot;,&quot;&quot;)" type="V_String" />
+            <Field name="2010 Census" size="159" source="Formula: Replace([2010 Census], '366sup i=&quot;cie_ref-5&quot; class=&quot;reference&quot;a href=&quot;#cie_noe-5&quot;[5]asup', '366')" type="V_String" />
+            <Field name="2000 Census" size="134" source="Formula: ReplaceChar([2000 Census], '&lt;/td&gt;','')" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="City" />
+            <Field field="County" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="438" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([CITY], 'Rock Springs', 'RockSprings')" field="CITY" size="12" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[CITY = Replace([CITY], 'Rock Springs', 'RockSprings')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="12" source="Formula: Replace([CITY], 'Rock Springs', 'RockSprings')" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="Total Pawdacity Sales" size="1073741823" source="Formula: [January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" type="V_WString" />
+            <Field name="County" size="11" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="String" />
+            <Field name="Land Area" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Households with Under 18" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Int16" />
+            <Field name="Population Density" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Total Families" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="894" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="NAME" selected="True" />
+            <Field field="ADDRESS" selected="True" />
+            <Field field="CITY" selected="True" />
+            <Field field="STATE" selected="True" />
+            <Field field="Total Pawdacity Sales" selected="True" />
+            <Field field="County" selected="True" />
+            <Field field="2014 Estimate" selected="True" />
+            <Field field="2010 Census" selected="True" />
+            <Field field="2000 Census" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="11" source="Formula: Replace([CITY], 'Rock Springs', 'RockSprings')" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="Total Pawdacity Sales" source="Formula: [January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" type="Int32" />
+            <Field name="County" size="10" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="String" />
+            <Field name="Land Area" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Households with Under 18" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Int16" />
+            <Field name="Population Density" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Total Families" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="2014 Estimate" size="6" source="Formula: ReplaceChar([2014 Estimate],&quot;&lt;/td&gt;&quot;,&quot;&quot;)" type="String" />
+            <Field name="2010 Census" size="6" source="Formula: Replace([2010 Census], '366sup i=&quot;cie_ref-5&quot; class=&quot;reference&quot;a href=&quot;#cie_noe-5&quot;[5]asup', '366')" type="String" />
+            <Field name="2000 Census" size="6" source="Formula: ReplaceChar([2000 Census], '&lt;/td&gt;','')" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="198" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" field="Total Pawdacity Sales" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Total Pawdacity Sales = [January] + [February] + [March] + [April] + [May] + [Ju...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="12" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="January" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="February" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="March" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="April" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="May" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="June" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="July" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="August" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="September" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="October" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="November" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="December" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="Total Pawdacity Sales" size="1073741823" source="Formula: [January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="January" selected="False" />
+            <SelectField field="February" selected="False" />
+            <SelectField field="March" selected="False" />
+            <SelectField field="April" selected="False" />
+            <SelectField field="May" selected="False" />
+            <SelectField field="June" selected="False" />
+            <SelectField field="July" selected="False" />
+            <SelectField field="August" selected="False" />
+            <SelectField field="September" selected="False" />
+            <SelectField field="October" selected="False" />
+            <SelectField field="November" selected="False" />
+            <SelectField field="December" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="12" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="Total Pawdacity Sales" size="1073741823" source="Formula: [January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="978" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="11" source="Formula: Replace([CITY], 'Rock Springs', 'RockSprings')" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="Total Pawdacity Sales" source="Formula: [January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" type="Int32" />
+            <Field name="County" size="10" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="String" />
+            <Field name="Land Area" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Households with Under 18" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Int16" />
+            <Field name="Population Density" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Total Families" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="2014 Estimate" size="6" source="Formula: ReplaceChar([2014 Estimate],&quot;&lt;/td&gt;&quot;,&quot;&quot;)" type="String" />
+            <Field name="2010 Census" size="6" source="Formula: Replace([2010 Census], '366sup i=&quot;cie_ref-5&quot; class=&quot;reference&quot;a href=&quot;#cie_noe-5&quot;[5]asup', '366')" type="String" />
+            <Field name="2000 Census" size="6" source="Formula: ReplaceChar([2000 Census], '&lt;/td&gt;','')" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1146" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CITY" selected="True" rename="City" />
+            <SelectField field="2010 Census" selected="True" rename="2010 Census Population" type="Double" size="8" />
+            <SelectField field="Total Pawdacity Sales" selected="True" />
+            <SelectField field="Households with Under 18" selected="True" />
+            <SelectField field="Land Area" selected="True" />
+            <SelectField field="Population Density" selected="True" />
+            <SelectField field="Total Families" selected="True" />
+            <SelectField field="NAME" selected="False" />
+            <SelectField field="ADDRESS" selected="False" />
+            <SelectField field="STATE" selected="False" />
+            <SelectField field="ZIP" selected="False" />
+            <SelectField field="County" selected="False" />
+            <SelectField field="2014 Estimate" selected="False" />
+            <SelectField field="2000 Census" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City" size="11" source="Formula: Replace([CITY], 'Rock Springs', 'RockSprings')" type="String" />
+            <Field name="2010 Census Population" source="Formula: ReplaceChar([2010 Census], ',', '')" type="Double" />
+            <Field name="Total Pawdacity Sales" source="Formula: [January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" type="Int32" />
+            <Field name="Households with Under 18" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Int16" />
+            <Field name="Land Area" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Population Density" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Total Families" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1254" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="2010 Census Population" action="Sum" rename="Sum_2010 Census Population" />
+            <SummarizeField field="Total Pawdacity Sales" action="Sum" rename="Sum_Total Pawdacity Sales" />
+            <SummarizeField field="Households with Under 18" action="Sum" rename="Sum_Households with Under 18" />
+            <SummarizeField field="Land Area" action="Sum" rename="Sum_Land Area" />
+            <SummarizeField field="Population Density" action="Sum" rename="Sum_Population Density" />
+            <SummarizeField field="Total Families" action="Sum" rename="Sum_Total Families" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sum_2010 Census Population" source="Summarize: Sum - 2010 Census Population" type="Double" />
+            <Field name="Sum_Total Pawdacity Sales" source="Summarize: Sum - Total Pawdacity Sales" type="Int64" />
+            <Field name="Sum_Households with Under 18" source="Summarize: Sum - Households with Under 18" type="Int64" />
+            <Field name="Sum_Land Area" source="Summarize: Sum - Land Area" type="Double" />
+            <Field name="Sum_Population Density" source="Summarize: Sum - Population Density" type="Double" />
+            <Field name="Sum_Total Families" source="Summarize: Sum - Total Families" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1074" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ReplaceChar([2010 Census], ',', '')" field="2010 Census" size="6" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[2010 Census = ReplaceChar([2010 Census], ',', '')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="11" source="Formula: Replace([CITY], 'Rock Springs', 'RockSprings')" type="String" />
+            <Field name="STATE" size="2" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="Total Pawdacity Sales" source="Formula: [January] + [February] + [March] + [April] + [May] + [June] + [July] + [August] +[September] + [October] +[November] + [December]" type="Int32" />
+            <Field name="County" size="10" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="String" />
+            <Field name="Land Area" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Households with Under 18" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Int16" />
+            <Field name="Population Density" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Total Families" source="File: C:\Users\chan\OneDrive\Project 2 Creating Analytical Dataset\Final Project\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="2014 Estimate" size="6" source="Formula: ReplaceChar([2014 Estimate],&quot;&lt;/td&gt;&quot;,&quot;&quot;)" type="String" />
+            <Field name="2010 Census" size="6" source="Formula: ReplaceChar([2010 Census], ',', '')" type="String" />
+            <Field name="2000 Census" size="6" source="Formula: ReplaceChar([2000 Census], '&lt;/td&gt;','')" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings>
+        <Position x="1254" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">City=True,2010 Census Population=True,Total Pawdacity Sales=True,Households with Under 18=True,Land Area=True,Population Density=True,Total Families=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Interactive">
+          <RecordInfo>
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Report" size="2147483647" source="Report:Table:Basic:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="24" source="Summarize: GroupBy - Name" type="String" />
+            <Field name="Field Category" size="64" source="Formula: (Multiple Sources)" type="String" />
+            <Field name="Min" source="(Multiple Sources)" type="Double" />
+            <Field name="Max" source="(Multiple Sources)" type="Double" />
+            <Field name="Median" source="Summarize: Median - Value" type="Double" />
+            <Field name="Std. Dev." source="Summarize: StdDev - Value" type="Double" />
+            <Field name="Percent Missing" source="Formula: (Multiple Sources)" type="Double" />
+            <Field name="Unique Values" source="Summarize: (Multiple Sources)" type="Int64" />
+            <Field name="Mean" source="Summarize: Avg - Value" type="Double" />
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+            <Field name="Remarks" size="1073741823" source="Summarize: Concat - Value" type="V_WString" />
+            <Field name="Shortest_Value" size="11" source="Summarize: Shortest - Value" type="String" />
+            <Field name="Longest_Value" size="11" source="Summarize: Longest - Value" type="String" />
+            <Field name="MinValueCount" source="Summarize: Count - Value" type="Int64" />
+            <Field name="MaxValueCount" source="Summarize: Count - Value" type="Int64" />
+            <Field name="Latest Date" size="64" source="Formula: DateTimeFormat([Max_Value],&quot;%m/%d/%Y %H:00&quot;)" type="String" />
+            <Field name="Earliest Date" size="64" source="Formula: DateTimeFormat([Min_Value],&quot;%m/%d/%Y %H:00&quot;)" type="String" />
+            <Field name="Interval" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="ObjType" size="12" source="Summarize: GroupBy - ObjType" type="String" />
+            <Field name="Avg_AreaSqMi" source="Summarize: Avg - AreaSqMi" type="Double" />
+            <Field name="Avg_LengthMi" source="Summarize: Avg - LengthMi" type="Double" />
+            <Field name="Avg_NumPoints" source="Summarize: Avg - NumPoints" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1350" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\chan\AppData\Local\Temp\Engine_4416_650c68c743884a1eb2b99df174946dfb_\Engine_10096_6a4a5158444d4a63b06a831590d0d2c5_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings>
+        <Position x="1254" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">Households with Under 18</Value>
+          <Value name="y var">Total Pawdacity Sales</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">False</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">City</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Scater Output">
+          <RecordInfo>
+            <Field name="Graph" size="1073741823" source="Report:R-Graph:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings>
+        <Position x="1266" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">Land Area</Value>
+          <Value name="y var">Total Pawdacity Sales</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">False</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">City</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Scater Output">
+          <RecordInfo>
+            <Field name="Graph" size="1073741823" source="Report:R-Graph:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings>
+        <Position x="1242" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">2010 Census Population</Value>
+          <Value name="y var">Total Pawdacity Sales</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">False</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">City</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Scater Output">
+          <RecordInfo>
+            <Field name="Graph" size="1073741823" source="Report:R-Graph:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings>
+        <Position x="1266" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">Population Density</Value>
+          <Value name="y var">Total Pawdacity Sales</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">False</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">City</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Scater Output">
+          <RecordInfo>
+            <Field name="Graph" size="1073741823" source="Report:R-Graph:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings>
+        <Position x="1266" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">Total Families</Value>
+          <Value name="y var">Total Pawdacity Sales</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">True</Value>
+          <Value name="smooth line">False</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">False</Value>
+          <Value name="group var">City</Value>
+          <Value name="group lines">False</Value>
+          <Value name="default">True</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">False</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Scater Output">
+          <RecordInfo>
+            <Field name="Graph" size="1073741823" source="Report:R-Graph:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1350" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\chan\AppData\Local\Temp\Engine_4416_650c68c743884a1eb2b99df174946dfb_\Engine_10096_73a94533fee54c049ff93270ce2dd8bf_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1350" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\chan\AppData\Local\Temp\Engine_4416_650c68c743884a1eb2b99df174946dfb_\Engine_10096_79f4138bb1034922993043d2dffa1897_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1362" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\chan\AppData\Local\Temp\Engine_4416_650c68c743884a1eb2b99df174946dfb_\Engine_10096_945b86b48e8346359fa5a43485ca02bb_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1362" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\chan\AppData\Local\Temp\Engine_4416_650c68c743884a1eb2b99df174946dfb_\Engine_10096_e89f49837c564853b87b484ff49a0c1f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1350" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\chan\AppData\Local\Temp\Engine_4416_650c68c743884a1eb2b99df174946dfb_\Engine_10096_96c0ded1e756454994686d7c71a21a77_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1254" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="2010 Census Population" action="Avg" rename="Avg_2010 Census Population" />
+            <SummarizeField field="Total Pawdacity Sales" action="Avg" rename="Avg_Total Pawdacity Sales" />
+            <SummarizeField field="Households with Under 18" action="Avg" rename="Avg_Households with Under 18" />
+            <SummarizeField field="Land Area" action="Avg" rename="Avg_Land Area" />
+            <SummarizeField field="Population Density" action="Avg" rename="Avg_Population Density" />
+            <SummarizeField field="Total Families" action="Avg" rename="Avg_Total Families" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Avg_2010 Census Population" source="Summarize: Avg - 2010 Census Population" type="Double" />
+            <Field name="Avg_Total Pawdacity Sales" source="Summarize: Avg - Total Pawdacity Sales" type="Double" />
+            <Field name="Avg_Households with Under 18" source="Summarize: Avg - Households with Under 18" type="Double" />
+            <Field name="Avg_Land Area" source="Summarize: Avg - Land Area" type="Double" />
+            <Field name="Avg_Population Density" source="Summarize: Avg - Population Density" type="Double" />
+            <Field name="Avg_Total Families" source="Summarize: Avg - Total Families" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="114" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="City|County" selected="True" />
+            <Field field="2014 Estimate" selected="True" />
+            <Field field="2010 Census" selected="True" />
+            <Field field="2000 Census" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City|County" size="28" source="TextInput:" type="V_String" />
+            <Field name="2014 Estimate" size="135" source="TextInput:" type="V_String" />
+            <Field name="2010 Census" size="159" source="TextInput:" type="V_String" />
+            <Field name="2000 Census" size="134" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="1470" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">City_Prediction</Value>
+          <Value name="Y Var">Total Pawdacity Sales</Value>
+          <Value name="X Vars">2010 Census Population,Households with Under 18,Land Area,Population Density,Total Families</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>City_Prediction</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Object" size="2147483647" source="R-DATA:SERIAL" type="Blob" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Interactive Report">
+          <RecordInfo>
+            <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1566" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\chan\AppData\Local\Temp\Engine_4416_650c68c743884a1eb2b99df174946dfb_\Engine_10096_4b636fa1714c4bd389d69ed07c021a42_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="37" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="37" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Join" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="55" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="57" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="58" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="60" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="61" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="63" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Interactive" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Scater Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Scater Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Scater Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Scater Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Scater Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Reports" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Pawdacity data</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (8)</Name>
+          <ToolId value="8" />
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="20" Selected="True" />
+        <Tool ToolId="55" Selected="True" />
+        <Tool ToolId="57" Selected="True" />
+        <Tool ToolId="56" Selected="False" />
+        <Tool ToolId="58" Selected="True" />
+        <Tool ToolId="60" Selected="True" />
+        <Tool ToolId="61" Selected="True" />
+        <Tool ToolId="63" Selected="True" />
+        <Tool ToolId="64" Selected="False" />
+        <Tool ToolId="65" Selected="False" />
+        <Tool ToolId="66" Selected="False" />
+        <Tool ToolId="67" Selected="False" />
+        <Tool ToolId="68" Selected="False" />
+        <Tool ToolId="71" Selected="True" />
+        <Tool ToolId="72" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
